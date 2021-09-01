@@ -1,0 +1,45 @@
+/* Sass Mixins
+The @mixin directive lets you create CSS code that is to be reused throughout the website.
+The @include directive is created to let you use (include) the mixin. 
+*/
+
+
+/* Defining a Mixin
+A mixin is defined with the @mixin directive.
+
+Sass @mixin Syntax:
+
+@mixin name {
+  property: value;
+  property: value;
+  ...
+} */
+
+// The following example creates a mixin named "important-text":
+@mixin important-text {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+
+/* Tip: A tip on hyphens and underscore in Sass: Hyphens and underscores are considered to be the same. 
+  This means that @mixin important-text { } and @mixin important_text { } are considered as the same mixin! */
+
+
+/* Using a Mixin
+    The @include directive is used to include a mixin.
+
+    Sass @include mixin Syntax:
+            selector {
+            @include mixin-name;
+            } */
+
+
+/* So, to include the important-text mixin created above:
+            .danger {
+                @include important-text;
+                background-color: green;
+            }
+*/

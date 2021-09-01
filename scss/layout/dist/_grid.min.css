@@ -1,0 +1,2 @@
+@charset "UTF-8";.grid-layout{display:grid;grid-template-areas:'main_header main_header main_header main_header main_header main_header' 'aside aside aside aside aside aside' 'main_section main_section main_section main_section main_section main_section' 'main_footer main_footer main_footer main_footer main_footer main_footer';grid-gap:10px;background-color:#fff}.grid-layout>div{text-align:center}.main_header{grid-area:main_header}.aside{grid-area:aside}.main_section{grid-area:main_section}.main_footer{grid-area:main_footer}
+/*# sourceMappingURL=_grid.min.css.map */

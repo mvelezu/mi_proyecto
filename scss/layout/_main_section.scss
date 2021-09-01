@@ -1,0 +1,37 @@
+/* Contenedor de la Sección principal (Main_section) */
+
+.grid-main_section {
+    display: grid;
+    grid-template-areas: 'main_section__articulo1' 'main_section__articulo2' 'main_section__articulo3' 'main_section__articulo4' 'main_section__articulo5';
+    grid-gap: 10px;
+    background-color: $fondo_main_section;
+}
+
+.grid-main_section>div {
+    background-color: $fondo_divs_main_section;
+    text-align: center;
+    padding: $padding_caja_interna;
+}
+
+
+/* Areas principales del área de Main_section */
+
+.main_section__articulo1 {
+    grid-area: main_section__articulo1;
+}
+
+.main_section__articulo2 {
+    grid-area: main_section__articulo2;
+}
+
+.main_section__articulo3 {
+    grid-area: main_section__articulo3;
+}
+
+.main_section__articulo4 {
+    grid-area: main_section__articulo4;
+}
+
+.main_section__articulo5 {
+    grid-area: main_section__articulo5;
+}

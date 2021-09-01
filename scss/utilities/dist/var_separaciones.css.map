@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["var_separaciones.scss"],"sourcesContent":["$padding_caja_interna: 20px;\r\n$padding_caja_ppal: 0px;"],"file":"var_separaciones.css"}

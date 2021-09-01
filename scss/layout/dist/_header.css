@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* Contenedor del Encabezado Principal (Main_Header) */
+.grid-main_header {
+  display: grid;
+  grid-template-areas: 'main_header__nav_redes main_header__nav_redes main_header__nav_redes' 'main_header__titulo_web main_header__nav_ppal main_header__nav_ppal' 'main_header__icono_web main_header__nav_ppal main_header__nav_ppal';
+  width: auto;
+  background-color: #76a5af;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+.grid-main_header > div {
+  align-self: center;
+  margin: 5px;
+  padding: 0;
+  border: 1px solid black;
+}
+
+/* Areas principales del Encabezado Principal (Main_Header) */
+.main_header__nav_redes {
+  grid-area: main_header__nav_redes;
+  justify-content: end;
+  align-content: start;
+}
+
+/* Barra de Navegación Redes con Flexbox */
+.nav_redes__navbar_redes {
+  display: flex;
+  background-color: #76a5af;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-size: 24px;
+  border: 1px solid black;
+}
+
+.nav_redes__navbar_redes a {
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.nav_redes__navbar_redes a:hover {
+  background-color: white;
+  color: grey;
+}
+
+.main_header__titulo_web {
+  grid-area: main_header__titulo_web;
+  color: #26ece2;
+}
+
+.main_header__icono_web {
+  grid-area: main_header__icono_web;
+  font-size: 72px;
+  color: black;
+  margin: 0px;
+}
+
+.main_header__nav_ppal {
+  grid-area: main_header__nav_ppal;
+  justify-content: end;
+  align-content: end;
+}
+
+/* Barra de Navegación Principal con Flexbox */
+.nav_ppal__navbar {
+  display: flex;
+  background-color: #76a5af;
+  justify-content: flex-end;
+  align-items: flex-end;
+  /* font-size: 18px; */
+  border: 1px solid black;
+}
+
+.nav_ppal__navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav_ppal__navbar li {
+  list-style-position: inside;
+  padding: 13px;
+  margin: 0;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.nav_ppal__navbar a {
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.nav_ppal__navbar a:hover {
+  background-color: #76a5af;
+  color: white;
+}
+
+/*# sourceMappingURL=_header.css.map */

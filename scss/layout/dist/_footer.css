@@ -1,0 +1,17 @@
+/* Contenedor del Footer Principal */
+.grid-main_footer {
+  display: grid;
+  grid-template-areas: 'main_footer';
+  background-color: #76a5af;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+.grid-main_footer > div {
+  background-color: rgba(146, 141, 141, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=_footer.css.map */

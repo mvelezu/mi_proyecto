@@ -1,0 +1,21 @@
+/* Sass Import Syntax:
+    @import filename; 
+*/
+
+
+/* Tip: You do not need to specify a file extension, Sass automatically assumes that you mean a .sass or .scss file. You can also import CSS files. The @import directive imports the file and any variables or mixins defined in the imported file can then be used in the main file.
+You can import as many files as you need in the main file: */
+
+// @import "variables";
+// @import "colors";
+@import "reset";
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: red;
+}
+
+
+/* Sass Partial Syntax:
+     _filename; 
+ */

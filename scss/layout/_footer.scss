@@ -1,0 +1,15 @@
+/* Contenedor del Footer Principal */
+
+.grid-main_footer {
+    display: grid;
+    grid-template-areas: 'main_footer';
+    background-color: $fondo_main_footer;
+    padding: 0px;
+    //border: 1px solid black;
+}
+
+.grid-main_footer>div {
+    text-align: center;
+    padding: 20px 0;
+    margin: 10px;
+}

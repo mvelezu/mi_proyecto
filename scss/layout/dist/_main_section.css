@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* Contenedor de la Sección principal (Main_section) */
+.grid-main_section {
+  display: grid;
+  grid-template-areas: 'main_section__articulo1' 'main_section__articulo2' 'main_section__articulo3' 'main_section__articulo4' 'main_section__articulo5';
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-main_section > div {
+  background-color: rgba(146, 141, 141, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  margin: 10px;
+}
+
+/* Areas principales del área de Main_section */
+.main_section__articulo1 {
+  grid-area: main_section__articulo1;
+}
+
+.main_section__articulo2 {
+  grid-area: main_section__articulo2;
+}
+
+.main_section__articulo3 {
+  grid-area: main_section__articulo3;
+}
+
+.main_section__articulo4 {
+  grid-area: main_section__articulo4;
+}
+
+.main_section__articulo5 {
+  grid-area: main_section__articulo5;
+}
+
+/*# sourceMappingURL=_main_section.css.map */
